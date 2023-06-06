@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.TodoList {
+    color: var(--secondary-color);
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    font: var(--font-xl);
+}
+
+.addToDo input {
+    width: 350px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--secondary-color);
+}
+
+.newTasks {
+    padding: 20px;
+    background-color: rgb(249, 236, 219);
+}
+
+ul {
+    padding: 0;
+}
+
+
+.ToDos {
+    p {
+        border: 1px solid var(--secondary-color);
+        border-radius: 5px;
+        margin-bottom: 7px;
+        font-size: 20px;
+        padding: 0;
+    }
+    Button{
+        margin: 10px 0 ;
+    }
+
+}

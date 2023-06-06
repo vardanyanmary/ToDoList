@@ -1,0 +1,17 @@
+.Button {
+    border-radius: 5px;
+    margin: 0 auto;
+    background: none;
+    padding: 8px 16px;
+    font:var(--font-m);
+}
+
+.primary {
+    background-color: var(--inverted-bg-color);
+    color: var(--inverted-primary-color);
+}
+
+.secondary {
+    color: var(--secondary-color);
+    border: 1px solid var(--inverted-bg-color);
+}
